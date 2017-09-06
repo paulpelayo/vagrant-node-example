@@ -1,0 +1,27 @@
+{
+  "name": "vagrant-node-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulpelayo/vagrant-node-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulpelayo/vagrant-node-example/issues"
+  },
+  "homepage": "https://github.com/paulpelayo/vagrant-node-example#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
